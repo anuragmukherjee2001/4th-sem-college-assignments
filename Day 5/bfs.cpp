@@ -55,7 +55,19 @@ int main()
 
     cout << endl;
 
+    int start;
+    cout << "Enter the starting value" << endl;
+    cin  >> start;
+
     cout << "BFS of the Graph is: " << endl;
-    bfs(0);
+    bfs(start);
     return 0;
 }
+
+                //         0
+                    //  /    \
+                    // 1       2
+                    // |   \    |    
+                    // 3-------4
+                    // \       /
+                    //     5

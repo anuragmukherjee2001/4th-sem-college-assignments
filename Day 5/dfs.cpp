@@ -65,7 +65,21 @@ int main()
         }
     }
 
-    cout << "DFS is: " << endl;
-    dfs(0);
+    int start;
+    cout << "Enter the starting value" << endl;
+    cin  >> start;
+
+    cout << "DFS of the Graph is: " << endl;
+    dfs(start);
     return 0;
 }
+
+
+
+                    //     0
+                    //  /    \
+                    // 1       2
+                    // |   \    |    
+                    // 3-------4
+                    // \       /
+                    //     5
